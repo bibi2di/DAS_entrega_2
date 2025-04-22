@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763101865924",
+    "project_id": "txorionak-ae586",
+    "storage_bucket": "txorionak-ae586.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763101865924:android:dcd9ae55cef75c7cfd2691",
+        "android_client_info": {
+          "package_name": "com.example.txorionak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARDWg4WtQiNljOI6Znc4fP_rvQjTpe6hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

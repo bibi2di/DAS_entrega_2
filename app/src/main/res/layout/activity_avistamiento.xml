@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birdSky">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etEspecie"
+            android:hint="Especie del pájaro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etLatitud"
+            android:hint="Latitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textColorHint="@color/birdCloud"
+            android:textColor="@color/birdCloud"/>
+
+        <EditText
+            android:id="@+id/etLongitud"
+            android:hint="Longitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textColorHint="@color/birdCloud"
+            android:textColor="@color/birdCloud"/>
+
+        <ImageView android:id="@+id/ivFoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnTomarFoto"
+            android:text="Tomar Foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/birdCloud"
+            android:textColor="@android:color/black"/>
+
+        <Button android:id="@+id/btnRegistrar"
+            android:text="Registrar Avistamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/birdCloud"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

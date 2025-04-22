@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/birdSky"> <!-- Light blue background -->
+
+    <!-- Centered background image -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_wing"
+        android:alpha="0.30"
+        android:contentDescription="@null" />
+
+    <!-- Foreground UI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@android:color/transparent">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Txorionak"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/birdCloud"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="32dp"
+            android:shadowColor="#30000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/birdCloud"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/birdCloud"/>
+
+    </LinearLayout>
+</FrameLayout>
+
